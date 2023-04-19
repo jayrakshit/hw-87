@@ -1,4 +1,4 @@
-var canvas=new fabric.canvas('myCanvas');
+var canvas=new fabric.Canvas('myCanvas');
  block_y=1;
  block_x=1;
 
@@ -50,7 +50,7 @@ console.log(keyPressed);
 	if(keyPressed == '80')
 	{
 		block_x = 600;
-		new_image('pr1.png');
+		new_image('pr.png');
 		console.log("p");
 	}
 	if(keyPressed == '66')
